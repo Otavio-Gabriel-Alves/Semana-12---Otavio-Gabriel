@@ -1,0 +1,58 @@
+table {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+th {
+    background: rgb(255, 255, 255);
+    color: special;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+.special {
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+
+
+tr td:first-child {
+    font-weight: bold;
+    font-style: italic;
+    background-color: pink;
+    text-align: center;
+}
+
+tr td:nth-child(2),
+tr td:nth-child(3),
+tr td:nth-child(4) {
+    background: yellow;
+    text-align: center;
+    color: green;
+}
+
+tr td:nth-child(5) {
+    background: red;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Last row (média) */
+tr:last-child td {
+    background: white;
+    color: special;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+tr:last-child td:last-child {
+    background: white;
+    text-align: center;
+    color:blue
+}
