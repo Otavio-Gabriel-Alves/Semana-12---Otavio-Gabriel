@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input.grande {
+    width: 100%;
+    height: 30px;
+}
+
+input.pequena, select.pequena {
+    width: 45%;
+    height: 25px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.linha label {
+    margin-top: 0;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.linha input.pequena,
+.linha select.pequena {
+    width: 120px;
+    margin-right: 20px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: nowrap;      
+    gap: 16px;
+    margin: 10px 0;    
+    width: 100%;
+}
+.infor {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 20px 0 10px 0;
+        white-space: nowrap;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.leitura{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    white-space: nowrap;
+}
+.titulo-cadastro {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.titulo-cadastro mark.azul {
+    background: #2196f3;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.cabecalho {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.cabecalho td {
+    padding: 12px 0;
+}
+.azul-claro {
+    background: #b3d8fd;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 16px;
+}
+.azul-escuro {
+    background: #0d2241;
+    width: 40px;
+}
+.checklabel {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
